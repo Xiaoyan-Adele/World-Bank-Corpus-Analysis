@@ -1,0 +1,4 @@
+# World-Bank-Corpus-Analysis
+Text analysis of World Bank Annual Reports Corpus
+
+Every year, the World Bank published an Annual Report that explores the challenges encountered by developing nations and what it is doing to help people help themselves. From its inception in 1946 until present day, its mission statement has shifted from the rebuilding of Europe towards fostering international development. In a way, these annual report are mirrors that reflect the reality of their time and shines a light on international development and the progress of developing countries. Fortunately, all annual reports from 1946 to present days are preserved in the World Bank data portal. Analyzing the text corpus of these reports could provide valuable insights into the topics, trends, and sentiments that permeate the world of development specifically and the world at large.  
