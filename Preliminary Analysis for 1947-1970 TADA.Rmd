@@ -1,0 +1,25 @@
+---
+title: "WB Annual Report Group Work_Text as Data"
+output: html_document
+---
+
+```{r setup}
+install.packages("readtext")
+install.packages("quanteda")
+install.packages("ggplot2")
+library(readtext)
+library(quanteda)
+library(ggplot2)
+```
+
+```{r}
+readtext::readtext("C:/Users/172657/Downloads/TaD")
+```
+
+```{r trial}
+WB_corpus <- corpus(WB_files,text_field = "text")
+stat_read <- textstat_readability(WB_corpus,measure = "Flesch")
+stat_read
+plot(stat_read$Flesch, type = 'l', xaxt = 'n', xlab = NULL, ylab = "Flesch")
+```
+
